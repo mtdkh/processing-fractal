@@ -1,4 +1,5 @@
-int iro = 0;
+
+int color_value = 0;
 boolean flag=true;
 
 void setup() {
@@ -9,33 +10,33 @@ void setup() {
 void draw() {
   background(0);
   translate(width/2, height/2);
-  drawFrac(600, iro);
+  drawFrac(600, color_value);
 
-  if (iro>255) {
+  if (color_value>255) {
     flag=false;
   }
-  if (iro<0) {
+  if (color_value<0) {
     flag=true;
   }
 
   if (flag) {
-    iro++;
+    color_value++;
   } 
   else {
-    iro--;
+    color_value--;
   }
 }
 
-void drawFrac(int size, int iro) {
+void drawFrac(int size, int color_value) {
   if (size < 1) {
     return;
   }
-  rotate(radians(iro));
+  rotate(radians(color_value));
   rect(-size/2, -size/2, size, size);
 
   rotate(radians(45));
-  stroke(size, iro, 255-size);
-  fill(255-size, iro, size);
-  drawFrac(int(size/sqrt(2)), iro);
+  stroke(size, color_value, 255-size);
+  fill(255-size, color_value, size);
+  drawFrac(int(size/sqrt(2)), color_value);
 }
 

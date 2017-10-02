@@ -1,5 +1,5 @@
 # FractalAnimation
-This is FractalAnimation.
+FractalAnimation is a fractal animation.
 
 
 ## Programming language 
