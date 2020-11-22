@@ -1,6 +1,4 @@
-# FractalAnimation
-FractalAnimation is a fractal animation.
-
-
-## Programming language 
-Processing 2.2.1
+# processing-fractalanimation
+FractalAnimation is a fractal animation  
+## Environment
+Processing ver2.2.1
