@@ -1,4 +1,10 @@
 # processing-fractalanimation
+
+## Description
 FractalAnimation is a fractal animation  
-## Environment
-Processing ver2.2.1  
+
+## Requirement
+* Processing ver2.2.1
+
+## License
+MIT License  
